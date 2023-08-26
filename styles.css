@@ -68,7 +68,7 @@
 
 .pestañas nav ul li a{
     background-color: black;
-    text-decoration: none;    /*hacer HOVER:A*/
+    text-decoration: none;    /*Hacer HOVER:A*/
     color: inherit;
     top: 20%;
 }
