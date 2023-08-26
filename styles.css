@@ -1,0 +1,75 @@
+*{
+    background-color: rgb(235, 235, 241);
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+    
+.contenedorHeader .logo{
+    background-color: #1f1969;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 2px;
+}
+
+.contenedorHeader header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedorHeader .imagenLogo{
+    margin-left: 0.4%;
+    width: 3%;
+    height: auto;
+}
+
+.contenedorHeader .BarraBusqueda .ibuscar{
+    font-family: 'Righteous';
+    width: 25%;
+    height: 2%;
+    margin-top: 0.5%;
+    margin-left: 20%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: small;
+    color: black;
+}
+
+.pestañas nav ul {
+    background-color: black;
+    position: absolute;
+    padding: 0px;
+    margin-top: 40px;
+    width: 7%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Cambia la dirección a vertical */
+    align-items: flex-start; /* Alinea hacia la izquierda */
+}
+
+
+.pestañas nav ul li{
+    font-family: 'Righteous';
+    font-weight: bold;
+    position: relative;
+    margin: 40px 10px;
+    font-size: 20px;
+    color: red;
+    
+}
+
+.pestañas nav ul li a{
+    background-color: black;
+    text-decoration: none;    /*hacer HOVER:A*/
+    color: inherit;
+    top: 20%;
+}
+
