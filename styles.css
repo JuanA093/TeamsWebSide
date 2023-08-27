@@ -42,9 +42,37 @@
     color: black;
 }
 
+.contenedorHeader ul{
+    list-style: none;
+    margin-left: 74%;
+    margin-top: 2%;
+    position: absolute;
+    display: flex;
+}
+
+.contenedorHeader li a{
+   font-size: 30px;
+   color: red;
+}
+
+.contenedorHeader li a:hover{
+    color: #fafafa;
+ }
+
+
+.contenedorHeader li i{
+    background-color: #1f1969;
+    text-decoration: none;
+    padding: 3px;
+
+ }
+
+
+
 .pestañas nav ul {
     background-color: black;
     position: absolute;
+    text-align: center;
     padding: 0px;
     margin-top: 40px;
     width: 7%;
@@ -52,11 +80,11 @@
     list-style: none;
     display: flex;
     flex-direction: column; /* Cambia la dirección a vertical */
-    align-items: flex-start; /* Alinea hacia la izquierda */
 }
 
 
 .pestañas nav ul li{
+    background-color: black;
     font-family: 'Righteous';
     font-weight: bold;
     position: relative;
@@ -72,4 +100,41 @@
     color: inherit;
     top: 20%;
 }
+.pestañas nav ul li a:hover{
+    color: #1f1969;
+}
 
+.pestañas .iconos a{
+    color: red;
+    text-decoration: none;
+    margin: 20% 2%;
+    position: relative;
+}
+.pestañas .iconos li{
+    margin-bottom: 1.6%;
+    margin-left: 0.5%;
+    justify-content: center;
+}
+
+.pestañas .iconos li{
+    margin-bottom: 1.6%;
+    margin-left: 0.5%;
+    justify-content: center;
+}
+
+.pestañas .iconos li i{
+    margin-top: 2.4%;
+    height: 20%;
+    font-size: 30px;
+    background-color: black;
+    
+}
+
+.pestañas .iconos i:hover{
+    color:#1f1969;
+    margin-top: 2.4%;
+    height: 20%;
+    font-size: 30px;
+    background-color: black;
+    
+}
