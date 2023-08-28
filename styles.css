@@ -1,0 +1,272 @@
+*{
+    background-color: rgb(235, 235, 241);
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+    
+.contenedorHeader .logo{
+    background-color: #1f1969;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 2px;
+}
+
+.contenedorHeader header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedorHeader .imagenLogo{
+    margin-left: 0.4%;
+    width: 3%;
+    height: auto;
+}
+
+.contenedorHeader .BarraBusqueda .ibuscar{
+    font-family: 'Righteous';
+    width: 25%;
+    height: 2%;
+    margin-top: 0.5%;
+    margin-left: 20%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: small;
+    color: black;
+}
+
+.contenedorHeader ul{
+    list-style: none;
+    margin-left: 74%;
+    margin-top: 2%;
+    position: absolute;
+    display: flex;
+}
+
+.contenedorHeader li a{
+   font-size: 30px;
+   color: white;
+}
+
+.contenedorHeader li a:hover{
+    color: #423b92;
+ }
+
+
+.contenedorHeader li i{
+    background-color: fafafa;
+    text-decoration: none;
+    padding: 3px;
+    background-color: #1f1969;
+
+ }
+
+.pestañas nav ul {
+    background-color: rgb(163, 177, 197);
+    position: absolute;
+    text-align: center;
+    padding: 0px;
+    margin-top: 2.2%;
+    width: 7%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Cambia la dirección a vertical */
+}
+
+
+.pestañas nav ul li{
+    background-color:   rgb(163, 177, 197);
+    font-family: 'Righteous';
+    font-weight: bold;
+    position: relative;
+    margin: 40px 10px;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.pestañas nav ul li a{
+    background-color:  rgb(163, 177, 197);
+    text-decoration: none;    /*Hacer HOVER:A*/
+    color: inherit;
+    top: 20%;
+}
+.pestañas nav ul li a:hover{
+    color: #423b92;
+}
+
+.pestañas .iconos a{
+    color: white;
+    text-decoration: none;
+    margin: 20% 2%;
+    position: relative;
+}
+.pestañas .iconos li{
+    margin-bottom: 1.5%;
+    margin-left: 0.5%;
+    justify-content: center;
+}
+
+
+.pestañas .iconos li i{
+    margin-top: 2.4%;
+    height: 20%;
+    font-size: 30px;
+    background-color: rgb(163, 177, 197);
+    
+}
+
+.pestañas .iconos i:hover{
+    color: #423b92;
+    margin-top: 2.4%;
+    height: 20%;
+    font-size: 30px;
+    background-color:  rgb(163, 177, 197);
+    
+}
+
+.contenidoChats .encabezadoChat{
+    color: black;
+    display: inline;
+    position: absolute;
+    font-size: 20px;
+    justify-content: center;
+    top: 4.4%;
+    right: 77%;
+    width: 200px;
+    height: 100px;
+    transform: translateX(-50%);
+}
+
+.contenidoChats a{
+    color: black;
+    display: inline;
+    position: absolute;
+    text-decoration: none;
+    font-size: 20px;
+    left: 11%;
+    bottom: 92.5%;
+}
+
+.contenidoChats .listaChats{
+    color: black;
+    display: inline;
+    position: absolute;
+    font-size: 20px;
+    top: 15%;
+    right: 69.3%;
+    width: 300px;
+    height: 100px;
+    transform: translateX(-50%);
+}
+
+.listaChats ul{
+    list-style-type: none;
+    border-bottom: 1px solid rgb(75, 108, 219);
+    border-right: 1px solid rgb(75, 108, 219);
+    padding: 10px;
+}
+
+.listaChats h3{
+    font-weight: lighter;
+    margin-left: 3%;
+    border-right: 1px solid rgb(75, 108, 219);
+}
+
+.listaChats h2{
+    font-family: 'Righteous';
+    color: #423b92;
+    font-size: 20px;
+    text-align: right;
+}
+.listaChats p{
+    font-family: 'Righteous';
+    font-size: 20px;
+    text-align: right;
+}
+.listaChats ul:hover li{
+    transition: background-color 0.3s;
+}
+
+.listaChats ul:hover{
+    background-color: rgb(108, 155, 216);
+    transition: background-color 0.3s;
+}
+
+.listaChats ul:hover h2{
+    background-color:  rgb(108, 155, 216);
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.listaChats ul:hover p{
+    background-color:  rgb(108, 155, 216);
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.listaChats ul:hover span{
+    background-color:  rgb(108, 155, 216);
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+/*ICONOS CHAT*/
+.listaChats a{
+    display: flex;
+    position: relative;
+    font-size: 40px;
+    align-items: center;
+}
+.listaChats  i{
+    position: absolute;
+    color: #423b92;
+    left: -30px;
+}
+
+.listaChats  ul:hover i{
+    background-color: rgb(108, 155, 216);
+    transition: background-color 0.3s;
+}
+
+
+
+/* to remove/*
+.iconosChat li{
+    display: flex;
+    position: relative;
+    font-size: 50px;
+    padding-bottom: 69.5px;
+    list-style-type: none;
+}
+
+.iconosChat li i{
+    font-size: 40px;
+}
+
+.iconosChat ul{
+    position: absolute;
+    top: 21.5%;
+    left: 7.5%;
+}
+
+.iconosChat a{
+    color: #423b92;
+
+}
+
+.iconosChat i:hover{
+    background-color: rgb(108, 155, 216);
+
+}
+
+
+
