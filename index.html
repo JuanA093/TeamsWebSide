@@ -10,8 +10,8 @@
 </head>
 <body>
      <!--ENCABEZADO!-->
-    <div class="contenedorHeader">
-        <header>
+    <header>
+        <div class="contenedorHeader">
             <div class="logo">
                 <img src="./img/logoTeams.png" class="imagenLogo">
             </div>
@@ -21,12 +21,28 @@
                     <input type="text" placeholder="Encontrar grupos" class="ibuscar" style="color: black;">
                 </form>
             </div>
+            <ul class="iconoUsuario">
+                <li><a href="#"><i class="fa-solid fa-user-tie"></i></a></li>
+            </ul>
             <ul>
                 <li><a href="#"><i class="fa-solid fa-window-minimize"></i></a></li>
                 <li><a href="#"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a></li>
                 <li><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
-            </ul>    
-        </header>
+            </ul>
+            <div class="headChat">
+                <ul>
+                    <li><a href="#Chat">Chat</a></li>
+                    <li><a href="#Arcivos">Archivos</a></li>
+                    <li><a href="#Organizacion">Organizacion</a></li>
+                    <li><a href="#Actividad">Actividad</a></li>
+                    <li><a href="#Linkedln">Linkedln</a></li>
+                </ul>
+            </div>
+        </div>    
+    </header>
+
+    <div class="nombre">
+        <h1>Bernando Gonzales</h1>
     </div>
 
     <!--PESTAÑAS  -->
@@ -57,7 +73,7 @@
 
     <section id="chats" class="chats">
         <div class="contenidoChats">
-            <div class="encabezadoChat" style="width: 200px; height: 100px; border-bottom: 2px solid rgb(74, 108, 170);">
+            <div class="encabezadoChat" style="width: 200px; height: 100px; border-right: 1px solid rgb(74, 108, 170);">
                 <h1>Chat</h1>
             </div>    
                 <a href="#"><i class="fa-solid fa-arrow-down-short-wide"></i></a>
